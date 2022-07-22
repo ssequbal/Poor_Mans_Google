@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Saad Search Engine</title>
+    </head>
+    <style>
+  h1 {
+    font-size: 42pt;
+    margin: 45px;
+  }
+    .navbar {
+    text-align: right;
+  }
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+  }
+  .navbar a {
+    color: #101013;
+  }
+  .navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+    text-decoration: none;
+  }
+  .navbar a:active, .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .searchbar {
+    border-color: #918080;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    width: 1000px;
+
+  }
+  .vertical-center {
+    margin-top: 150px;
+  }
+
+  .searchbar:hover, .searchbar:focus, .searchbutton:hover {
+    box-shadow: 0 0 1px 1px #727171;
+    outline: none;
+  }
+  .searchbutton {
+    background-color:rgb(240, 244, 248);
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+
+  }
+  
+    </style>
+ 
+    <body>
+
+        <ul class="navbar">
+    	    <li><a href="images.html">Images</a></li>
+    	    <li><a href="advanced.html">Advanced</a></li>
+        </ul>
+
+        <div>
+            <center class="vertical-center">
+                <h1>Poor Man's Google</h1>
+                <form action="https://google.com/search">
+                    <input type="text" name="q" class="searchbar">
+                    <input type="submit" value="PMG Search" class="searchbutton">
+                    <input type="submit" name="btnI" value="I'm Feeling Lucky" class="searchbutton">
+                </form>
+            </center>
+        </div>
+    </body>
+</html></body>
+</html>
